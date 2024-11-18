@@ -1,27 +1,17 @@
 # MathieuLin.github.io
 
-## Portfolio
+## Website on GitHub Pages
 
-Bienvenue sur le portfolio de Mathieu LIN, étudiant en L3 informatique à l'USMB.
+Welcome to the website of Mathieu LIN, a third-year computer science student at USMB. Here, you'll find an introduction to my work, links to my projects, my CV, and contact information.
 
-### Description
+### Projects
 
-Ce site web présente mes projets, compétences et expériences en informatique. Vous y trouverez des informations sur mes travaux académiques, mes projets personnels et mes contributions à des projets open source. (Bientôt)
-
-### Télécharger mon CV
-
-Pour télécharger mon CV au format PDF, cliquez sur le lien ci-dessous :
-
-**[<CV>](<./Divers/Curriculum vitae de Mathieu LIN  - Public.pdf>)**
-
-### Projets
-
-à voir sur mon CV
+Explore my GitHub for various projects and check out my CV for more details on my experience and skills.
 
 ### Contact
 
-Pour me contacter, vous pouvez m'envoyer un email à : work.mathieu.lin@gmail.com
+To get in touch, you can send an email to : work.mathieu.lin@gmail.com
 
 ---
 
-Merci de visiter mon portfolio !
+Thank you for visiting my website !
