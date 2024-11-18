@@ -1,0 +1,190 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styles pour la barre de navigation */
+.navbar-active {
+    color:aquamarine;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li .navbar-inactive {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: cyan;
+}
+
+
+/* Haut-styles */
+.haut-principal {
+    background-image: url('../Divers/Back.jpg');
+    background-size: cover; /* L'image couvre tout l'espace disponible */
+    background-position: center center; 
+    padding: 60px 20px;
+    margin-top: 50px; 
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
+}
+
+
+.haut-content {
+    display: flex;
+    align-items: center;
+}
+
+.haut-slogan {
+    font-size: 24px; /* Adjust as necessary */
+    font-weight: bold;
+    margin-left: 20px; /* Space between logo and slogan */
+}
+
+/* Container principal */
+.container {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante */
+    justify-content: space-between; /* Espacement entre les colonnes */
+    color: #333;
+}
+
+/* Style pour chaque bloc de projet */
+.project-block {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    width: 48%; /* Chaque projet occupe environ la moitié de la largeur (2 colonnes) */
+}
+
+/* Titre du projet */
+.project-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Dates du projet */
+.project-dates {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Liste des personnes */
+.project-people {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style pour les liens vers LinkedIn */
+.project-people li {
+    margin-bottom: 5px;
+}
+
+.project-people li a {
+    color: #0077b5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-people li a:hover {
+    color: #005582;
+}
+
+
+
+/* Barre de contact en bas */
+.contact-bar {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contact-bar a {
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-bar a:hover {
+    color: white;
+}
+
+
+
+#logo {
+    height:30px;
+    width : 30px;   
+    color: white;
+    margin-left : 12px;
+}
+
+#logo:hover{
+    color : cyan ;
+}
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .carousel {
+        max-width: 100%;
+    }
+
+    .carousel-images img {
+        border-radius: 10px; /* Ajuste le border-radius pour les petits écrans */
+    }
+}
+

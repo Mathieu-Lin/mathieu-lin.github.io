@@ -12,7 +12,7 @@ Ce site web présente mes projets, compétences et expériences en informatique.
 
 Pour télécharger mon CV au format PDF, cliquez sur le lien ci-dessous :
 
-**Télécharger le CV**
+**[<CV>](<./Divers/Curriculum vitae de Mathieu LIN  - Public.pdf>)**
 
 ### Projets
 

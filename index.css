@@ -7,6 +7,13 @@
 }
 
 /* Styles pour la barre de navigation */
+.navbar-active {
+    color:aquamarine;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
 .navbar {
     background: rgba(0, 0, 0, 0.8);
     padding: 15px;
@@ -27,7 +34,7 @@
     margin: 0 20px;
 }
 
-.navbar ul li a {
+.navbar ul li .navbar-inactive {
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
@@ -37,6 +44,8 @@
 .navbar ul li a:hover {
     color: cyan;
 }
+
+
 
 /* Container principal */
 .container {
@@ -71,7 +80,7 @@ h2 {
 
 /* Barre de contact en bas */
 .contact-bar {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.25);
     color: white;
     text-align: center;
     padding: 15px 0;
@@ -82,15 +91,17 @@ h2 {
     z-index: 100;
 }
 
-.contact-bar a {
+.contact-bar div a {
     color: cyan;
     text-decoration: none;
     font-weight: bold;
 }
 
-.contact-bar a:hover {
+.contact-bar div a:hover {
     color: white;
 }
+
+
 
 /* Animations */
 @keyframes slideIn {
