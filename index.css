@@ -50,7 +50,7 @@
 /* Container principal */
 .container {
 
-    background-image: url(./Divers/Back.jpg);
+    background-image: url(./Divers/Back.webp);
     background-size: cover;
     display: flex;
     flex-direction: column;
