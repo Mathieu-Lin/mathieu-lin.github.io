@@ -6,11 +6,7 @@ Welcome to the website of Mathieu LIN, a third-year computer science student at 
 
 ### Projects
 
-Explore my GitHub for various projects and check out my CV for more details on my experience and skills.
-
-### Contact
-
-To get in touch, you can send an email to : work.mathieu.lin@gmail.com
+Explore my GitHub page 
 
 ---
 
